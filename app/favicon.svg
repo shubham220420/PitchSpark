@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sparkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: hsl(320, 85%, 65%); stop-opacity: 1" />
+      <stop offset="50%" style="stop-color: hsl(315, 100%, 75%); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: hsl(310, 90%, 55%); stop-opacity: 1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: hsl(320, 85%, 65%); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: hsl(315, 100%, 75%); stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lightning bolt icon -->
+  <g transform="translate(8, 9)">
+    <path d="M16 2L10 14h6l-2 16 12-16h-6l4-12z" fill="url(#sparkGradient)" />
+    <!-- Spark particles -->
+    <circle cx="8" cy="8" r="1.5" fill="hsl(320, 85%, 65%)" opacity="0.8" />
+    <circle cx="24" cy="6" r="1" fill="hsl(315, 100%, 75%)" opacity="0.6" />
+    <circle cx="26" cy="20" r="1.5" fill="hsl(320, 85%, 65%)" opacity="0.9" />
+    <circle cx="6" cy="24" r="1" fill="hsl(315, 100%, 75%)" opacity="0.7" />
+  </g>
+  
+  <!-- Text -->
+  <text x="50" y="30" font-family="Inter, sans-serif" font-size="20" font-weight="bold" fill="hsl(0, 0%, 98%)">
+    Pitch
+  </text>
+  <text x="100" y="30" font-family="Inter, sans-serif" font-size="20" font-weight="bold" fill="url(#textGradient)">
+    Spark
+  </text>
+</svg>

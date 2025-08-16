@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sparkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: hsl(320, 85%, 65%); stop-opacity: 1" />
+      <stop offset="50%" style="stop-color: hsl(315, 100%, 75%); stop-opacity: 1" />
+      <sbackgroundtop offset="100%" style="stop-color: hsl(310, 90%, 55%); stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark  -->
+  <rect width="32" height="32" fill="hsl(240, 10%, 3.9%)" rx="6"/>
+  
+  <!-- Lightning bolt icon -->
+  <path d="M16 4L12 16h4l-1 12 9-12h-4l3-12z" fill="url(#sparkGradient)" />
+  
+  <!-- Spark particles -->
+  <circle cx="9" cy="9" r="1" fill="hsl(320, 85%, 65%)" opacity="0.8" />
+  <circle cx="23" cy="7" r="0.8" fill="hsl(315, 100%, 75%)" opacity="0.6" />
+  <circle cx="25" cy="21" r="1" fill="hsl(320, 85%, 65%)" opacity="0.9" />
+  <circle cx="7" cy="24" r="0.8" fill="hsl(315, 100%, 75%)" opacity="0.7" />
+</svg>
